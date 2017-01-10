@@ -6,9 +6,9 @@ const TableExampleSimple = () => (
   <Table>
     <TableHeader>
       <TableRow>
-        <TableHeaderColumn>ID</TableHeaderColumn>
-        <TableHeaderColumn>Name</TableHeaderColumn>
-        <TableHeaderColumn>Status</TableHeaderColumn>
+        <TableHeaderColumn tooltip="foo">ID</TableHeaderColumn>
+        <TableHeaderColumn tooltip="bar">Name</TableHeaderColumn>
+        <TableHeaderColumn tooltip="zoo">Status</TableHeaderColumn>
       </TableRow>
     </TableHeader>
     <TableBody>
