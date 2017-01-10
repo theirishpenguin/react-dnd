@@ -2,7 +2,8 @@ import React, { Component, PropTypes } from 'react';
 import ItemTypes from './ItemTypes';
 import { DragSource } from 'react-dnd';
 //import RaisedButton from 'material-ui/RaisedButton';
-import TableExampleComplex from './TableExampleComplex';
+//import TableExampleComplex from './TableExampleComplex';
+import TableExampleSimple from './TableExampleSimple';
 
 const style = {
   border: '1px dashed gray',
@@ -54,7 +55,7 @@ export default class Box extends Component {
     return (
       connectDragSource(
         <div style={{ ...style, opacity }}>
-<TableExampleComplex />
+<TableExampleSimple />
           {name}
         </div>
       )
