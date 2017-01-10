@@ -42,7 +42,8 @@
     "dnd-core": "^2.0.1",
     "hoist-non-react-statics": "^1.2.0",
     "invariant": "^2.1.0",
-    "lodash": "^4.2.0"
+    "lodash": "^4.2.0",
+    "material-ui": "^0.16.6"
   },
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0-0"
